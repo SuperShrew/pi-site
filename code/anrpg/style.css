@@ -1,0 +1,59 @@
+#player {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+  z-index: 3;
+}
+
+#game {
+  position: absolute;
+  border: 5px solid white;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  z-index: 1;
+}
+
+.door1 {
+  --interact: 1;
+  position: absolute;
+  height: 30px;
+  width: 40px;
+  background-color: gray;
+  z-index: 1;
+}
+
+.NPC1 {
+  --interact: 1;
+  position: absolute;
+  border: 5px solid saddlebrown;
+  height: 10px;
+  width: 10px;
+  background-color: #e89c59;
+  z-index: 1;
+}
+
+.NPCHitbox {
+  --solid: 1;
+  position: relative;
+  left: -5px;
+  top: -5px;
+  height: 20px;
+  width: 20px;
+}
+
+#text {
+  top: 350px;
+  position: absolute;
+}
+#buttonDiv {
+  position: absolute;
+  top: 340px;
+  left: 275px;
+}
+
+#instructions {
+  position: absolute;
+  top: 305px;
+}

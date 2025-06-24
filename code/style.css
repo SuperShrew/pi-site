@@ -1,0 +1,33 @@
+.center {
+  text-align: center;
+}
+html {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: black;
+  color: lime;
+}
+#cursor {
+  animation: blink 1s step-start infinite;
+  animation-delay: 0.5s;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+a:link {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+

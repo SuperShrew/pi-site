@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F0VLYPNJPZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-F0VLYPNJPZ');
+    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Le RPG</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link href="../style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  
+  <div id="game">
+    <h1 class="type" style="display: inline-block;">Web RPG thing.</h1><h1 id="cursor" style="display: inline-block;">|</h1>
+  </div>
+  <p id="text"></p>
+  <div id="buttonDiv"></div>
+  <p id="instructions">wasd = move | 1 = check inventory | spacebar = interact</p>
+  <script src="../type.js"></script>
+  <script src="initData.js"></script>
+  <script src="npc.js"></script>
+  <script src="levelBuilder.js"></script>
+  <script src="enemy.js"></script>
+  <script src="battleHandler.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

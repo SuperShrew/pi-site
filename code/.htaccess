@@ -1,0 +1,7 @@
+ErrorDocument 404 /404.html
+# Deny access to all by default
+# Deny from all
+
+# Allow access to specific IPs or directories
+Allow from all
+
